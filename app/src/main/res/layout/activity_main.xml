@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#39127E"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="170dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Войти"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#7246A6"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:hint="Введите почту" />
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorHint="#7246A6"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:hint="Введите пороль" />
+
+    <Button
+        android:id="@+id/button_log"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFC107"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Подтвердить"
+         />
+
+    <Button
+        android:id="@+id/user_p"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FFC107"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:background="#39127E"
+
+        android:text="Забыли пароль?" />
+
+</LinearLayout>
